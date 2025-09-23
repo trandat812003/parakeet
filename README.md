@@ -45,7 +45,7 @@ URL: [https://github.com/Shadowfita/parakeet-tdt-0.6b-v2-fastapi](https://github
 
 | Config                        | 1p                          | 3p                          | 15p                         |
 |-------------------------------|-----------------------------|-----------------------------|-----------------------------|
-| **FastAPI (batching)**        |                             |                             |                             |
+| **FastAPI (batching)**        |         min-max(AVG) <br> GPU util <br> memory       |                             |                             |
 | With chunk, With timestamp    | 3736-11469 (6439) <br> 20% <br> 3059MB | 4540-18516(10200) <br> 41% <br> 3347MB | 24838-50449 (41633 ms) <br> 50% <br> 41633MB |
 | With chunk, Without timestamp | 589-3718(1410) <br> 30% <br> 3229MB | 764-6926(3624) <br> 43% <br> 3515MB | 11709-22519(17835) <br> 50% <br> 3545MB |
 | Without chunk, With timestamp |  <br> % <br> MB |  <br> % <br> MB |  <br> % <br> MB |
