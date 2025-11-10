@@ -46,8 +46,8 @@ URL: [https://github.com/Shadowfita/parakeet-tdt-0.6b-v2-fastapi](https://github
 | Config                        | 1p                          | 3p                          | 15p                         |
 |-------------------------------|-----------------------------|-----------------------------|-----------------------------|
 | **FastAPI (batching)**        |         min-max(AVG) <br> GPU util <br> memory       |                             |                             |
-| With chunk, With timestamp    | 3736-11469 (6439) <br> 20% <br> 3059MB | 4540-18516(10200) <br> 41% <br> 3347MB | 24838-50449 (41633 ms) <br> 50% <br> 41633MB |
-| With chunk, Without timestamp | 589-3718(1410) <br> 30% <br> 3229MB | 764-6926(3624) <br> 43% <br> 3515MB | 11709-22519(17835) <br> 50% <br> 3545MB |
+| With chunk, With timestamp    | 3.736-11.469 (6.439) <br> 20% <br> 3059MB | 4.540-18.516(10200) <br> 41% <br> 3347MB | 24.838-50.449 (41.633 ms) <br> 50% <br> 41633MB |
+| With chunk, Without timestamp | 0.589-3.718(1.410) <br> 30% <br> 3229MB | 0.764-6.926(3.624) <br> 43% <br> 3515MB | 11.709-22.519(17.835) <br> 50% <br> 3545MB |
 | Without chunk, With timestamp |  <br> % <br> MB |  <br> % <br> MB |  <br> % <br> MB |
-| Without chunk, Without timestamp |  71-128(121)<br> 43% <br> 3591MB | 101-360(308)ms<br> 66% <br> 3791MB | 1664-2957(2774)<br> 80% <br> 23057MB |
-| **Streaming** with 1024byte           |           3243 <br> 5% <br> 2700MB           |    8855 <br> 5% <br> 2700MB      |  34824 <br> 5% <br> 2700MB   |
+| Without chunk, Without timestamp |  0.071-0.128(0.121)<br> 43% <br> 3591MB | 0.101-0.360(0.308)ms<br> 66% <br> 3791MB | 1.664-2.957(2.774)<br> 80% <br> 23057MB |
+| **Streaming** with 1024byte           |           3.243 <br> 5% <br> 2700MB           |    8.855 <br> 5% <br> 2700MB      |  34.824 <br> 5% <br> 2700MB   |
